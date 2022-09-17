@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="115px" height="115px" viewBox="0 0 115 115">
+<filter filterUnits="objectBoundingBox" x="-228.00" y="-228.00" width="556.00" height="556.00" id="filter0">
+<feGaussianBlur in="SourceAlpha" stdDeviation="28.50" result="dsBlurOut1"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity="0.21" result="dsFloodOut1"/>
+<feComposite in="dsFloodOut1" in2="dsBlurOut1" operator="in" result="dsShadow1"/>
+<feOffset in="dsShadow1" dx="-0.00" dy="0.00" result="dsOffset1"/>
+<feComposite in="dsOffset1" in2="SourceAlpha" operator="out" result="dropShadow1"/>
+<feBlend in="dropShadow1" in2="SourceGraphic" mode="normal" result="sourceGraphic"/>
+<feFlood flood-color="rgb(255,255,255)" result="coFloodOut1"/>
+<feComposite in="coFloodOut1" in2="SourceAlpha" operator="in" result="coOverlay1"/>
+<feBlend in="coOverlay1" in2="sourceGraphic" mode="normal" result="colorOverlay1"/>
+</filter>
+<image x="0" y="0" width="115" height="115" filter="url(#filter0)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAQAAABu4E3oAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAGkSURBVDjLjdTBalNREAbgjzQNBS1F9+rOCnVRQYxbfQOlLhTroqXxDaz1VUy0ulVwVeuqMZuCuhVa0S7sTgs24K5pMi5yEu69ScD/cLjw/3Nm5szMuWRR8VhLRwxXx0c1FRPwyGHGOLsOLY878DLJv9WtqFpUtaLuKPGN4oEPKY11ZwrKWU+dCmE7S78Wwp7LE1Kety+EVwPinhC+5/xPq5jOxToQwhKUtYWuCzm/W37ZyjGX9IS2MjUhrBdS2RP2CtyGENb4IhwrFeRdYbfAlbSFTyXX8UavIEfaWfS8xY2+9+ZIjU7TzmOnf3k4SFV653wSr+LaMLU/7ugM7YSwAGYmjEsIM2BBiHKqOnRtZaLM+uvrMEo3YyeE+yNZt4TWCPtAiP71b42I5eE9s7jd/3wW2v/Vl6lBX+qY86Qgn0s7i3VzeM60ttBzMSdPmrFjU7AkhB+DeqQe5Sd5Nk3y3QGxKYR988bjim9C2MyS20I4tZGL1e/Fs/Qq3xc9vUh9PtKwqmrRTasaw7dfHxd+eeIf5qeHE1JWUdN0kjE+0bSWK4R/AuzKsx4R6WoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMjdUMTU6MzY6MDgrMDA6MDCoqyB/AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTI3VDE1OjM2OjA4KzAwOjAw2faYwwAAAABJRU5ErkJggg==" /></svg>
